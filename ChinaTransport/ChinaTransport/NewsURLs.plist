@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>全部</string>
+		<key>urlString</key>
+		<string></string>
+		<key>replyUrl</key>
+		<string>3g_bbs</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>公路</string>
+		<key>urlString</key>
+		<string>0601</string>
+		<key>replyUrl</key>
+		<string>sports_nba_bbs</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>海运</string>
+		<key>urlString</key>
+		<string>0602</string>
+		<key>replyUrl</key>
+		<string>mobile_bbs</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>铁路</string>
+		<key>urlString</key>
+		<string>0603</string>
+		<key>replyUrl</key>
+		<string>mobile_bbs</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>航空</string>
+		<key>urlString</key>
+		<string>0604</string>
+		<key>replyUrl</key>
+		<string>auto_bbs</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>货运</string>
+		<key>urlString</key>
+		<string>0605</string>
+		<key>replyUrl</key>
+		<string>lady_bbs</string>
+	</dict>
+</array>
+</plist>

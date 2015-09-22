@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeadLineNewsCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="NewsCellNormal" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="64" id="zAC-9y-uZu">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zAC-9y-uZu" id="Lv9-ug-y6p">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="peQ-qR-hh9">
+                        <rect key="frame" x="5" y="7" width="70" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="Afa-Jo-Fz3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="山西交通台 09:10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffw-3K-F8l">
+                        <rect key="frame" x="81" y="43" width="88" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.38711332070707072" green="0.38711332070707072" blue="0.38711332070707072" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="最美水上公路！中国首条生态环保公路通车" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfe-MY-dcy">
+                        <rect key="frame" x="81" y="7" width="231" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.1528972811879627" green="0.23826265286717091" blue="0.44965277777777779" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kfe-MY-dcy" firstAttribute="leading" secondItem="ffw-3K-F8l" secondAttribute="leading" id="18j-RD-FfH"/>
+                    <constraint firstItem="ffw-3K-F8l" firstAttribute="top" secondItem="Lv9-ug-y6p" secondAttribute="topMargin" constant="35" id="8qu-XA-B7C"/>
+                    <constraint firstItem="peQ-qR-hh9" firstAttribute="top" secondItem="Lv9-ug-y6p" secondAttribute="topMargin" constant="-1" id="Ewk-hH-I5O"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ffw-3K-F8l" secondAttribute="bottom" constant="-3" id="Hqb-JZ-SfR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="peQ-qR-hh9" secondAttribute="bottom" constant="-2" id="JPn-BQ-peL"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Kfe-MY-dcy" secondAttribute="bottom" constant="14" id="e2p-Cn-I93"/>
+                    <constraint firstItem="peQ-qR-hh9" firstAttribute="leading" secondItem="Lv9-ug-y6p" secondAttribute="leadingMargin" constant="-3" id="gIH-SW-2y2"/>
+                    <constraint firstItem="Kfe-MY-dcy" firstAttribute="leading" secondItem="peQ-qR-hh9" secondAttribute="trailing" constant="6" id="rkg-EW-B8d"/>
+                    <constraint firstItem="Kfe-MY-dcy" firstAttribute="top" secondItem="peQ-qR-hh9" secondAttribute="top" id="xHw-2o-Qo8"/>
+                    <constraint firstItem="Kfe-MY-dcy" firstAttribute="trailing" secondItem="Lv9-ug-y6p" secondAttribute="trailingMargin" id="yTl-H2-DLI"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="e2p-Cn-I93"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="398" y="389"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ImageCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageCell" rowHeight="100" id="qkk-4z-2Ec">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qkk-4z-2Ec" id="CDF-Ra-Ka3">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAa-wL-ZFs">
+                        <rect key="frame" x="12" y="23" width="85" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="utR-ic-FeT"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="09D-V6-8ZA">
+                        <rect key="frame" x="115" y="23" width="85" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="JEF-rs-KrF"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TiJ-2Y-sO6">
+                        <rect key="frame" x="217" y="23" width="85" height="60"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="山西交通台 09:10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHa-Xe-P5u">
+                        <rect key="frame" x="12" y="82" width="88" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="q7J-ZA-2La"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.38711332069999999" green="0.38711332069999999" blue="0.38711332069999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="最美水上公路！中国首gehahahhahahha" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjd-NC-D8h">
+                        <rect key="frame" x="10" y="-1" width="304" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.15289728120000001" green="0.23826265290000001" blue="0.44965277780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TiJ-2Y-sO6" firstAttribute="leading" secondItem="09D-V6-8ZA" secondAttribute="trailing" constant="17" id="1dJ-Bm-sdj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bjd-NC-D8h" secondAttribute="trailing" constant="-2" id="2eG-Fw-pcI"/>
+                    <constraint firstItem="eHa-Xe-P5u" firstAttribute="top" secondItem="bjd-NC-D8h" secondAttribute="bottom" constant="59" id="4HX-zi-JDv"/>
+                    <constraint firstItem="dAa-wL-ZFs" firstAttribute="leading" secondItem="eHa-Xe-P5u" secondAttribute="leading" id="5bi-yX-BQg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TiJ-2Y-sO6" secondAttribute="trailing" constant="10" id="QbG-B0-AmC"/>
+                    <constraint firstItem="dAa-wL-ZFs" firstAttribute="leading" secondItem="CDF-Ra-Ka3" secondAttribute="leadingMargin" constant="4" id="Sba-DL-HaT"/>
+                    <constraint firstItem="09D-V6-8ZA" firstAttribute="leading" secondItem="dAa-wL-ZFs" secondAttribute="trailing" constant="18" id="Uap-Lu-L2u"/>
+                    <constraint firstItem="dAa-wL-ZFs" firstAttribute="top" secondItem="bjd-NC-D8h" secondAttribute="bottom" id="XTl-kA-tzx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="dAa-wL-ZFs" secondAttribute="bottom" constant="9" id="cdk-dI-psp"/>
+                    <constraint firstItem="bjd-NC-D8h" firstAttribute="leading" secondItem="CDF-Ra-Ka3" secondAttribute="leadingMargin" constant="2" id="cgV-We-Yxq"/>
+                    <constraint firstItem="dAa-wL-ZFs" firstAttribute="top" secondItem="09D-V6-8ZA" secondAttribute="top" id="eE8-Li-4nK"/>
+                    <constraint firstItem="09D-V6-8ZA" firstAttribute="bottom" secondItem="dAa-wL-ZFs" secondAttribute="bottom" id="iib-nt-a1o"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eHa-Xe-P5u" secondAttribute="bottom" constant="-11" id="n8E-er-o8N"/>
+                    <constraint firstItem="TiJ-2Y-sO6" firstAttribute="top" secondItem="09D-V6-8ZA" secondAttribute="top" id="q3c-kH-nAh"/>
+                    <constraint firstItem="bjd-NC-D8h" firstAttribute="top" secondItem="CDF-Ra-Ka3" secondAttribute="topMargin" constant="-9" id="qXf-6U-jUL"/>
+                    <constraint firstItem="TiJ-2Y-sO6" firstAttribute="bottom" secondItem="09D-V6-8ZA" secondAttribute="bottom" id="yVY-R5-84B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="399" y="532"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ww" selectionStyle="default" indentationWidth="10" id="kra-he-wSr">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kra-he-wSr" id="b8j-lz-Odg">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOT-q9-z19">
+                        <rect key="frame" x="58" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="398" y="645"/>
+        </tableViewCell>
+    </objects>
+</document>

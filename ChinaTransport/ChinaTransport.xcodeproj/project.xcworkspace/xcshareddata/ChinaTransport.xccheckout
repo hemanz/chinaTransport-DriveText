@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC4D11B5-8814-4165-9EFC-CCC6EA7CF25D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChinaTransport</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>229C23F1DDEE28A6F27F9B8BF349399A6DA4F7D7</key>
+		<string>ssh://192.168.7.9:29418/~admin/ChinaTransport.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChinaTransport.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>229C23F1DDEE28A6F27F9B8BF349399A6DA4F7D7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://192.168.7.9:29418/~admin/ChinaTransport.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>229C23F1DDEE28A6F27F9B8BF349399A6DA4F7D7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>229C23F1DDEE28A6F27F9B8BF349399A6DA4F7D7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChinaTransport</string>
+		</dict>
+	</array>
+</dict>
+</plist>
